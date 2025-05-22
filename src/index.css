@@ -1,0 +1,22 @@
+:root {
+  --background-color: #f8fafc;
+  --text-color: #10161d;
+  --color-primary: #4c60dc;
+  --color-secondary: #e7edf3;
+  --color-white: #fff;
+  --color-black: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
