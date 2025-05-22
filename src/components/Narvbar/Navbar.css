@@ -1,0 +1,23 @@
+.navbar {
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--color-secondary);
+}
+
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.logo {
+  margin-right: 1rem;
+  font-size: 1.6rem;
+}
+
+.text {
+  color: var(--text-color);
+}
