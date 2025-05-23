@@ -2,9 +2,11 @@
   --background-color: #f8fafc;
   --text-color: #10161d;
   --color-primary: #4c60dc;
-  --color-secondary: #e7edf3;
+  --color-secondary-1: #e7edf3;
+  --color-secondary-2: #d6dfea;
   --color-white: #fff;
   --color-black: #000;
+  --border-radius: 0.7rem;
 }
 
 * {

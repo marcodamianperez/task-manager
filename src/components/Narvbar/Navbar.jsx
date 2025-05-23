@@ -4,7 +4,7 @@ import { TbTriangleInvertedFilled } from "react-icons/tb";
 function Navbar() {
   return (
     <nav className={styles.navbar}>
-      <div className={styles.container}>
+      <div className={styles.navContainer}>
         <h1 className={styles.title}>
           <span className={styles.logo}>
             <TbTriangleInvertedFilled />
