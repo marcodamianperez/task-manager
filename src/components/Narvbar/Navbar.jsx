@@ -1,15 +1,15 @@
-import "./Navbar.css";
+import styles from "./Navbar.module.css";
 import { TbTriangleInvertedFilled } from "react-icons/tb";
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <div className="container">
-        <h1 className="title">
-          <span className="logo">
+    <nav className={styles.navbar}>
+      <div className={styles.container}>
+        <h1 className={styles.title}>
+          <span className={styles.logo}>
             <TbTriangleInvertedFilled />
           </span>
-          <span className="text">Task Manager</span>
+          <span className={styles.text}>Task Manager</span>
         </h1>
       </div>
     </nav>

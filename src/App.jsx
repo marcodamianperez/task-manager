@@ -1,6 +1,6 @@
 import Navbar from "./components/Narvbar/Navbar";
 import TaskList from "./components/TaskList/TaskList";
-import "./App.css";
+import styles from "./App.module.css";
 
 function App() {
   return (
