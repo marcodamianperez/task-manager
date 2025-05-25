@@ -1,0 +1,8 @@
+.taskListTitle {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.taskList {
+  list-style: none;
+}

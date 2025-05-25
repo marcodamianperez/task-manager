@@ -1,0 +1,21 @@
+.taskWrapper {
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.taskWrapper:active .taskName {
+  font-weight: 700;
+}
+
+.taskName {
+  font-size: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}

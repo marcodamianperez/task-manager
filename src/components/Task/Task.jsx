@@ -1,7 +1,16 @@
+import Button from "../Button/Button";
 import styles from "./Task.module.css";
 
-function Task() {
-  return <div>Task</div>;
+function Task({ task }) {
+  return (
+    <div className={styles.taskWrapper}>
+      <p className={styles.taskName}>{task.taskName}</p>
+      <div className={styles.buttons}>
+        <Button>Done</Button>
+        <Button>Delete</Button>
+      </div>
+    </div>
+  );
 }
 
 export default Task;

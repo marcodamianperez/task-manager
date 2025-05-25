@@ -1,0 +1,17 @@
+.btn {
+  padding: 0.5rem 2rem;
+  background-color: var(--color-secondary);
+  border-radius: var(--border-radius);
+  font-size: 1.3rem;
+  transition: all 0.1s ease;
+}
+
+.btnDone:active {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.btnDelete:active {
+  background-color: var(--color-danger);
+  color: #fff;
+}
