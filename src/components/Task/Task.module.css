@@ -1,5 +1,5 @@
 .taskWrapper {
-  padding-bottom: 2rem;
+  padding: 1rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,6 +8,12 @@
 
 .taskWrapper:active .taskName {
   font-weight: 700;
+}
+
+@media (width >= 768px) {
+  .taskWrapper:hover .taskName {
+    font-weight: 700;
+  }
 }
 
 .taskName {

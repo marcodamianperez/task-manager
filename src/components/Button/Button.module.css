@@ -1,5 +1,5 @@
 .btn {
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
   background-color: var(--color-secondary);
   border-radius: var(--border-radius);
   font-size: 1.3rem;
@@ -14,4 +14,25 @@
 .btnDelete:active {
   background-color: var(--color-danger);
   color: #fff;
+}
+
+@media (width >= 768px) {
+  .btn {
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+  }
+
+  .btn:active {
+    filter: brightness(0.85);
+  }
+
+  .btnDone:hover {
+    background-color: var(--color-primary);
+    color: #fff;
+  }
+
+  .btnDelete:hover {
+    background-color: var(--color-danger);
+    color: #fff;
+  }
 }

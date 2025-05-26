@@ -10,6 +10,7 @@
   width: 100%;
   font-size: 1.6rem;
   background-color: inherit;
+  color: inherit;
   outline: 2px solid transparent;
   transition: outline-color 0.1s ease;
 }
