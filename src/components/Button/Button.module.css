@@ -1,8 +1,10 @@
 .btn {
   padding: 0.5rem 1rem;
   background-color: var(--color-secondary);
+  border: none;
   border-radius: var(--border-radius);
   font-size: 1.3rem;
+  color: inherit;
   transition: all 0.1s ease;
 }
 

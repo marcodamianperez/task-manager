@@ -12,12 +12,16 @@ function App() {
     setTasks((prev) => [...prev, newTask]);
   }
 
+  function handleDeleteTask(id) {
+    setTasks(tasks.filter((task) => task.id !== id));
+  }
+
   return (
     <>
       <Navbar />
       <div className={styles.appContainer}>
         <TaskInput onAddTask={handleAddTask} />
-        <TaskList tasks={tasks} />
+        <TaskList tasks={tasks} onDeleteTask={handleDeleteTask} />
       </div>
     </>
   );
