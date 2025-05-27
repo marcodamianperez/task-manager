@@ -6,17 +6,17 @@
   gap: 2rem;
 }
 
-.taskWrapper:active .taskName {
+.taskWrapper:active .taskText {
   font-weight: 700;
 }
 
 @media (width >= 768px) {
-  .taskWrapper:hover .taskName {
+  .taskWrapper:hover .taskText {
     font-weight: 700;
   }
 }
 
-.taskName {
+.taskText {
   font-size: 1.5rem;
 }
 
