@@ -16,12 +16,17 @@ function App() {
     setTasks(tasks.filter((task) => task.id !== id));
   }
 
+  // Terminar!!!
+  function handleCompleteTask(id) {
+    setTasks(tasks.map((task) => (task.id === id ? { ...task, completed: !task.completed } : task)));
+  }
+
   return (
     <>
       <Navbar />
       <div className={styles.appContainer}>
         <TaskInput onAddTask={handleAddTask} />
-        <TaskList tasks={tasks} onDeleteTask={handleDeleteTask} />
+        <TaskList tasks={tasks} onDeleteTask={handleDeleteTask} onCompleteTask={handleCompleteTask} />
       </div>
     </>
   );
