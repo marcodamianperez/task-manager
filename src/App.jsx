@@ -3,9 +3,10 @@ import TaskList from "./components/TaskList/TaskList";
 import styles from "./App.module.css";
 import TaskInput from "./components/TaskInput/TaskInput";
 import { useState } from "react";
+import initialTasks from "./data/initialTasks";
 
 function App() {
-  const [tasks, setTasks] = useState([]);
+  const [tasks, setTasks] = useState(initialTasks);
 
   function handleAddTask(taskText) {
     const newTask = { id: crypto.randomUUID(), text: taskText, completed: false };
