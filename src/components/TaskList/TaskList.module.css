@@ -1,6 +1,44 @@
+.flexWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
 .taskListTitle {
   font-size: 2rem;
-  margin-bottom: 2rem;
+}
+
+.labelSelect {
+  font-size: 1.4rem;
+  margin-right: 1rem;
+}
+
+.showSelect {
+  border: 1px solid var(--color-secondary-darker);
+  border-radius: var(--border-radius);
+  padding: 0.5rem 1rem;
+  background-color: inherit;
+  font-family: inherit;
+  outline: 2px solid transparent;
+  transition: outline-color 0.1s ease;
+}
+
+.showSelect:focus {
+  outline-color: var(--color-primary);
+}
+
+select option {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.emptyList {
+  font-size: 1.8rem;
+  opacity: 0.5;
+  font-style: italic;
+  padding: 1rem 0;
+  user-select: none;
 }
 
 .taskList {
