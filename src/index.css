@@ -1,19 +1,21 @@
 :root {
   --background-color: #f8fafc;
+  --background-color-2: #f8fafc;
+  --background-color-button: #e7edf3;
   --text-color: #10161d;
   --color-primary: #4056e4;
-  --color-secondary: #e7edf3;
-  --color-secondary-darker: #d6dfea;
+  --color-secondary: #d6dfea;
   --color-danger: #ff4d4f;
+  --color-placeholder: #859db8;
   --border-radius: 0.7rem;
 }
 
-/* For a future implementation of a dark mode */
-.darkMode {
+[data-theme="dark"] {
   --background-color: #111922;
+  --background-color-2: #1a2532;
+  --background-color-button: #243447;
   --text-color: #fff;
-  --color-secondary: #243447;
-  --color-secondary-darker: #1a2532;
+  --color-secondary: #2b3847;
 }
 
 * {
@@ -30,6 +32,7 @@ body {
   font-family: "Manrope", sans-serif;
   background-color: var(--background-color);
   color: var(--text-color);
+  transition: background-color 0.3s ease;
 }
 
 a,

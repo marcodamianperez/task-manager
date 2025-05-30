@@ -1,6 +1,6 @@
 .btn {
   padding: 0.5rem 1rem;
-  background-color: var(--color-secondary);
+  background-color: var(--background-color-button);
   border: none;
   border-radius: var(--border-radius);
   font-size: 1.3rem;

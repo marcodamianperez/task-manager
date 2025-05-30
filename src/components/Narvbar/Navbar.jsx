@@ -1,5 +1,6 @@
 import styles from "./Navbar.module.css";
 import { SiGoogletagmanager } from "react-icons/si";
+import ThemeToggle from "../../theme/ThemeToggle";
 
 function Navbar() {
   return (
@@ -13,6 +14,7 @@ function Navbar() {
             <span className={styles.text}>Task Manager</span>
           </a>
         </h1>
+        <ThemeToggle />
       </div>
     </nav>
   );

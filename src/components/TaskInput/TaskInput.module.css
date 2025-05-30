@@ -3,13 +3,13 @@
 }
 
 .taskInput {
-  border: 1px solid var(--color-secondary-darker);
+  border: 1px solid var(--color-secondary);
   border-radius: var(--border-radius);
   font-family: inherit;
   padding: 1.5rem;
   width: 100%;
   font-size: 1.6rem;
-  background-color: inherit;
+  background-color: var(--background-color-2);
   color: inherit;
   outline: 2px solid transparent;
   transition: outline-color 0.1s ease;
@@ -17,4 +17,8 @@
 
 .taskInput:focus {
   outline-color: var(--color-primary);
+}
+
+.taskInput::placeholder {
+  color: var(--color-placeholder);
 }
