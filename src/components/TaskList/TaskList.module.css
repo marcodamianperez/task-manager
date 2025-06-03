@@ -19,7 +19,7 @@
   border: 1px solid var(--color-secondary);
   border-radius: var(--border-radius);
   padding: 0.5rem 1rem;
-  background-color: inherit;
+  background-color: var(--background-color-2);
   font-family: inherit;
   outline: 2px solid transparent;
   transition: outline-color 0.1s ease;
@@ -30,7 +30,7 @@
 }
 
 select option {
-  background-color: var(--background-color);
+  background-color: var(--background-color-2);
   color: var(--text-color);
 }
 

@@ -1,9 +1,12 @@
 .btn {
-  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem 1rem;
   background-color: var(--background-color-button);
   border: none;
   border-radius: var(--border-radius);
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: inherit;
   transition: all 0.1s ease;
 }
@@ -20,7 +23,8 @@
 
 @media (width >= 768px) {
   .btn {
-    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+    padding: 0.8rem 2rem;
     cursor: pointer;
   }
 
